@@ -1,12 +1,11 @@
-import React from 'react';
+import React from "react";
 import { render } from "react-dom";
-import { TextInput } from "./lib";
+import { App } from "./lib";
 
-const App = () => (
-  <div style={{ width: 640, margin: "15px auto" }}>
-    <h1>Hello React</h1>
-    <TextInput label="Email Address" placeholder="name@example.com" />
+const Calendar = () => (
+  <div>
+    <App />
   </div>
 );
 
-render(<App />, document.getElementById("root"));
+render(<Calendar />, document.getElementById("root"));

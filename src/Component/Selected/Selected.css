@@ -1,0 +1,43 @@
+.selected {
+  width: 90%;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.selected ul {
+  list-style: none;
+  text-align: center;
+  height: 100px;
+  overflow-y: scroll;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.notSelected:hover {
+  background-color: orange;
+  color: white;
+}
+
+.titleMonthYear {
+  position: relative;
+}
+
+.ulMonthYear {
+  position: absolute;
+  z-index: 1;
+  background: white;
+  top: 50px;
+  left: 50px;
+  padding: 10px;
+}
+
+.ulYear {
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  top: 50px;
+  padding: 10px;
+}
